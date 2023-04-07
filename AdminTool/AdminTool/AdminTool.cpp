@@ -3,9 +3,20 @@
 
 #include <iostream>
 
+int myFunc(int val);
+
 int main()
 {
     std::cout << "Hello World, no exclamation\n";
+
+    int j = myFunc(100);
+    printf("j = %d\n", j);
+}
+
+int myFunc(int val)
+{
+    printf("hello %d\n", val);
+    return val + 100;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
