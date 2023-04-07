@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World, no exclamation\n";
+   cout << "Hello World, no exclamation\n";
+
+   cout << "How are you?\n";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
