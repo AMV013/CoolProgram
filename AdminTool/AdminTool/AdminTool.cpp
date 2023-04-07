@@ -5,12 +5,15 @@
 
 int myFunc(int val);
 
+using namespace std;
 int main()
 {
-    std::cout << "Hello World, no exclamation\n";
+    cout << "Hello World, no exclamation\n";
 
     int j = myFunc(100);
     printf("j = %d\n", j);
+
+    cout << "How are you?\n";
 }
 
 int myFunc(int val)
